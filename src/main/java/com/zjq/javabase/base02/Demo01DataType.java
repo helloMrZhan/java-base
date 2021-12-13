@@ -8,7 +8,7 @@ package com.zjq.javabase.base02;
  * 	2. 规则：数据范围从小到大。
  *
  * 强制类型转换（显式）
- * @author Administrator
+ * @author zjq
  */
 public class Demo01DataType {
 	public static void main(String[] args) {

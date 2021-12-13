@@ -6,7 +6,8 @@ package com.zjq.javabase.base02;
  *
  * 1. 如果没有超过左侧的范围，编译器补上强转。
  * 2. 如果右侧超过了左侧范围，那么直接编译器报错。
-*/
+ * @author zjq
+ */
 public class Demo12Notice {
 	public static void main(String[] args) {
 		// 右侧确实是一个int数字，但是没有超过左侧的范围，就是正确的。

@@ -8,7 +8,7 @@ package com.zjq.javabase.base02;
  * char类型字符，和int类型数字，之间的对照关系表：ASCII、Unicode
  * 3. 对于字符串String（首字母大写，并不是关键字）来说，加号代表字符串连接操作。
  * 任何数据类型和字符串进行连接的时候，结果都会变成字符串
- * @author Administrator
+ * @author zjq
  */
 public class Demo05Plus {
 	public static void main(String[] args) {

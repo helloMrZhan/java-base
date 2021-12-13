@@ -17,7 +17,8 @@ package com.zjq.javabase.base02;
  * 注意事项：
  * 1. 必须同时保证表达式A和表达式B都符合左侧数据类型的要求。
  * 2. 三元运算符的结果必须被使用。
-*/
+ * @author zjq
+ */
 public class Demo10Operator {
 	public static void main(String[] args) {
 		int a = 10;

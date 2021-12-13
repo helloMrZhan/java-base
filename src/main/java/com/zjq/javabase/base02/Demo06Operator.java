@@ -17,7 +17,7 @@ package com.zjq.javabase.base02;
  *
  * 注意事项：
  * 	只有变量才能使用自增、自减运算符。常量不可发生改变，所以不能用。
- * @author Administrator
+ * @author zjq
  */
 public class Demo06Operator {
 	public static void main(String[] args) {

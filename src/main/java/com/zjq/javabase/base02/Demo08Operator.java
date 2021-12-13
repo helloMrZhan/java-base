@@ -14,7 +14,7 @@ package com.zjq.javabase.base02;
  * 2. 如果进行多次判断，不能连着写。
  * 数学当中的写法，例如：1 < x < 3
  * 程序当中【不允许】这种写法。
- * @author Administrator
+ * @author zjq
  */
 public class Demo08Operator {
 	public static void main(String[] args) {

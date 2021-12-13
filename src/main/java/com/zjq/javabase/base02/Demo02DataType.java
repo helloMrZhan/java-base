@@ -10,7 +10,7 @@ package com.zjq.javabase.base02;
  * 	2. byte/short/char这三种类型都可以发生数学运算，例如加法“+”.
  * 	3. byte/short/char这三种类型在运算的时候，都会被首先提升成为int类型，然后再计算。
  * 	4. boolean类型不能发生数据类型转换
- * @author Administrator
+ * @author zjq
  */
 public class Demo02DataType {
 	public static void main(String[] args) {

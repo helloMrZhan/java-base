@@ -21,7 +21,7 @@ package com.zjq.javabase.base02;
  *
  * 注意事项：
  * 	1. 一旦运算当中有不同类型的数据，那么结果将会是数据类型范围大的那种。
- * @author Administrator
+ * @author zjq
  */
 public class Demo04Operator {
 	public static void main(String[] args) {

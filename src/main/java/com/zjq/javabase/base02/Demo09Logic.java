@@ -18,7 +18,8 @@ package com.zjq.javabase.base02;
  * 对于1 < x < 3的情况，应该拆成两个部分，然后使用与运算符连接起来：
  * int x = 2;
  * 1 < x && x < 3
-*/
+ * @author zjq
+ */
 public class Demo09Logic {
 	public static void main(String[] args) {
 		System.out.println(true && false); // false

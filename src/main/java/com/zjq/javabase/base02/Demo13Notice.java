@@ -12,7 +12,8 @@ package com.zjq.javabase.base02;
  * 这称为“编译器的常量优化”。
  *
  * 但是注意：一旦表达式当中有变量参与，那么就不能进行这种优化了。
-*/
+ * @author zjq
+ */
 public class Demo13Notice {
 	public static void main(String[] args) {
 		short num1 = 10; // 正确写法，右侧没有超过左侧的范围，

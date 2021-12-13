@@ -9,7 +9,7 @@ package com.zjq.javabase.base02;
  * 48 - '0'
  * 65 - 'A'
  * 97 - 'a'
- * @author Administrator
+ * @author zjq
  */
 public class Demo03DataTypeChar {
 	public static void main(String[] args) {

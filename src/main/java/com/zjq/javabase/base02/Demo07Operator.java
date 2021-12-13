@@ -16,7 +16,7 @@ package com.zjq.javabase.base02;
  * 注意事项：
  * 	1. 只有变量才能使用赋值运算符，常量不能进行赋值。
  * 	2. 复合赋值运算符其中隐含了一个强制类型转换。
- * @author Administrator
+ * @author zjq
  */
 public class Demo07Operator {
 	public static void main(String[] args) {

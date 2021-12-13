@@ -17,7 +17,8 @@ package com.zjq.javabase.base02;
  * 如何调用方法，格式：
  *
  * 方法名称();
-*/
+ * @author zjq
+ */
 public class Demo11Method {
 	
 	public static void main(String[] args) {
