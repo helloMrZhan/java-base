@@ -1,4 +1,4 @@
-package com.zjq.javabase.base;
+package com.zjq.javabase.base01;
 
 /**
  *使用变量的时候，有一些注意事项：

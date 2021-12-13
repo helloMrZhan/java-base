@@ -1,4 +1,4 @@
-package com.zjq.javabase.base;
+package com.zjq.javabase.base01;
 
 /**
  * 变量：程序运行期间，内容可以发生改变的量。
