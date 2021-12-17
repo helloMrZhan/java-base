@@ -15,7 +15,7 @@ public class Demo01System {
         StringBuilder sb = new StringBuilder();
     }
 
-    /*
+    /**
         public static void arraycopy(Object src, int srcPos, Object dest, int destPos, int length)：将数组中指定的数据拷贝到另一个数组中。
         参数:
             src - 源数组。
@@ -41,7 +41,7 @@ public class Demo01System {
         System.out.println("复制后:"+ Arrays.toString(dest));
     }
 
-    /*
+    /**
         public static long currentTimeMillis()：返回以毫秒为单位的当前时间。
         用来程序的效率
         验证for循环打印数字1-9999所需要使用的时间（毫秒）

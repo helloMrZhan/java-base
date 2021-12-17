@@ -39,7 +39,7 @@ public class Demo01DateFormat {
         demo02();
     }
 
-    /*
+    /**
          使用DateFormat类中的方法parse,把文本解析为日期
          使用步骤:
             1.创建SimpleDateFormat对象,构造方法中传递指定的模式
@@ -59,7 +59,7 @@ public class Demo01DateFormat {
         System.out.println(date);
     }
 
-    /*
+    /**
         使用DateFormat类中的方法format,把日期格式化为文本
         使用步骤:
             1.创建SimpleDateFormat对象,构造方法中传递指定的模式

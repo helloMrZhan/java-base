@@ -17,16 +17,16 @@ public class Person {
         this.age = age;
     }
 
-    /*
+    /**
         直接打印对象的地址值没有意义,需要重写Object类中的toString方法
         打印对象的属性(name,age)
      */
-    /*@Override
+    /**@Override
     public String toString() {
        //return "abc";
        return "Person{name="+name+" ,age="+age+"}";
     }*/
-    /*@Override
+    /**@Override
     public String toString() {
         return "Person{" +
                 "name='" + name + '\'' +
@@ -34,7 +34,7 @@ public class Person {
                 '}';
     }*/
 
-    /*
+    /**
         Object类的equals方法,默认比较的是两个对象的地址值,没有意义
         所以我们要重写equals方法,比较两个对象的属性(name,age)
         问题:
@@ -43,7 +43,7 @@ public class Person {
             Object obj = p2 = new Person("古力娜扎",19);
             解决:可以使用向下转型(强转)把obj类型转换为Person
      */
-    /*@Override
+    /**@Override
     public boolean equals(Object obj) {
         //增加一个判断,传递的参数obj如果是this本身,直接返回true,提高程序的效率
         if(obj==this){

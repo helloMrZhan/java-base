@@ -8,7 +8,7 @@ public class Outer {
 
     int num = 10; // 外部类的成员变量
 
-    public class Inner /*extends Object*/ {
+    public class Inner /**extends Object*/ {
 
         int num = 20; // 内部类的成员变量
 

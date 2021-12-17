@@ -29,7 +29,7 @@ public class Demo02ArrayReturn {
         // 两个结果都希望进行返回
 
         // 需要一个数组，也就是一个塑料兜，数组可以保存多个结果
-        /*
+        /**
         int[] array = new int[2];
         array[0] = sum; // 总和
         array[1] = avg; // 平均数

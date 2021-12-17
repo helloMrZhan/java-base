@@ -21,7 +21,7 @@ import java.util.ArrayList;
  */
 public class Demo02Equals {
     public static void main(String[] args) {
-        /*
+        /**
             Person类默认继承了Object类,所以可以使用Object类的equals方法
             boolean equals(Object obj) 指示其他某个对象是否与此对象“相等”。
             equals方法源码:

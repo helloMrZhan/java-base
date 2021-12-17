@@ -3,7 +3,7 @@ package com.zjq.javabase.base10.demo02;
 /**
  * @author zjq
  */
-public class MyInterfaceImpl /*extends Object*/ implements MyInterfaceA, MyInterfaceB {
+public class MyInterfaceImpl /**extends Object*/ implements MyInterfaceA, MyInterfaceB {
 
     @Override
     public void methodA() {

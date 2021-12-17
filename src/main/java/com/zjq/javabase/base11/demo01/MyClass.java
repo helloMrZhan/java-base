@@ -10,7 +10,7 @@ package com.zjq.javabase.base11.demo01;
  * 注意：一个类如果是final的，那么其中所有的成员方法都无法进行覆盖重写（因为没儿子。）
  * @author zjq
  */
-public final class MyClass /*extends Object*/ {
+public final class MyClass /**extends Object*/ {
 
     public void method() {
         System.out.println("方法执行！");

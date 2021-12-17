@@ -24,7 +24,7 @@ public class Demo02StringBuilder {
 //        bu.append('中');
 //        System.out.println(bu);//abc1true8.8中
 
-        /*
+        /**
             链式编程:方法返回值是一个对象,可以继续调用方法
          */
         System.out.println("abc".toUpperCase().toLowerCase().toUpperCase().toLowerCase());

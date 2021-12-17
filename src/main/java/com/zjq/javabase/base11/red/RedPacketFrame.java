@@ -151,7 +151,7 @@ public abstract class RedPacketFrame extends JFrame {
         // jsp.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
         // jsp.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
 
-        /*
+        /**
          * 两部分 页面 . 1.本人获得的红包-- showPanel 2.别人获得的红包-- show_jsp
          */
         show_name.setBounds(125, 180, 100, 30);
@@ -402,7 +402,7 @@ public abstract class RedPacketFrame extends JFrame {
                 moneyList = openWay.divide(totalMoney, count);
 
 //                System.out.println(moneyList);
-                /*
+                /**
                  * showPanel 添加数据
                  *
                  */
@@ -441,7 +441,7 @@ public abstract class RedPacketFrame extends JFrame {
 
     }
 
-    /* ======================================================================
+    /** ======================================================================
      * **********************************************************************
      * * 以上代码均为页面部分处理,包括布局/互动/跳转/显示等,大家							*
      * *																	*

@@ -26,7 +26,7 @@ public class Demo02Calendar {
         demo04();
     }
 
-    /*
+    /**
         public Date getTime()：返回一个表示此Calendar时间值（从历元到现在的毫秒偏移量）的Date对象。
         把日历对象,转换为日期对象
      */
@@ -38,7 +38,7 @@ public class Demo02Calendar {
         System.out.println(date);
     }
 
-    /*
+    /**
         public abstract void add(int field, int amount)：根据日历的规则，为给定的日历字段添加或减去指定的时间量。
         把指定的字段增加/减少指定的值
         参数:
@@ -68,7 +68,7 @@ public class Demo02Calendar {
         System.out.println(date);
     }
 
-    /*
+    /**
         public void set(int field, int value)：将给定的日历字段设置为给定值。
         参数:
             int field:传递指定的日历字段(YEAR,MONTH...)
@@ -98,7 +98,7 @@ public class Demo02Calendar {
         System.out.println(date);
     }
 
-    /*
+    /**
         public int get(int field)：返回给定日历字段的值。
         参数:传递指定的日历字段(YEAR,MONTH...)
         返回值:日历字段代表的具体的值

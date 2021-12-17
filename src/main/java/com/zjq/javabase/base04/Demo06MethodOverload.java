@@ -19,7 +19,7 @@ package com.zjq.javabase.base04;
 public class Demo06MethodOverload {
 
     public static void main(String[] args) {
-        /*System.out.println(sumTwo(10, 20)); // 30
+        /**System.out.println(sumTwo(10, 20)); // 30
         System.out.println(sumThree(10, 20, 30)); // 60
         System.out.println(sumFour(10, 20, 30, 40)); // 100*/
 

@@ -24,7 +24,7 @@ public class Demo03ArrayListPrint {
         printArrayList(list);
     }
 
-    /*
+    /**
     定义方法的三要素
     返回值类型：只是进行打印而已，没有运算，没有结果；所以用void
     方法名称：printArrayList

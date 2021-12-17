@@ -19,7 +19,7 @@ public class Demo01ArrayParam {
         printArray(array);
     }
 
-    /*
+    /**
     三要素
     返回值类型：只是进行打印而已，不需要进行计算，也没有结果，用void
     方法名称：printArray

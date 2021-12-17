@@ -19,7 +19,7 @@ import java.util.Scanner;
  */
 public class Demo01ToString{
     public static void main(String[] args) {
-        /*
+        /**
             Person类默认继承了Object类,所以可以使用Object类中的toString方法
             String toString() 返回该对象的字符串表示。
          */

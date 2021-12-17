@@ -19,7 +19,7 @@ public class Demo07ArrayReverse {
         }
         System.out.println("============");
 
-        /*
+        /**
         初始化语句：int min = 0, max = array.length - 1
         条件判断：min < max
         步进表达式：min++, max--

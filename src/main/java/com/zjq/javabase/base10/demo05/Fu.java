@@ -3,7 +3,7 @@ package com.zjq.javabase.base10.demo05;
 /**
  * @author zjq
  */
-public class Fu /*extends Object*/ {
+public class Fu /**extends Object*/ {
 
     int num = 10;
 

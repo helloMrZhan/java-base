@@ -31,7 +31,7 @@ public class Demo05MethodNotice {
     }
 
     public static int getMax(int a, int b) {
-        /*int max;
+        /**int max;
         if (a > b) {
             max = a;
         } else {

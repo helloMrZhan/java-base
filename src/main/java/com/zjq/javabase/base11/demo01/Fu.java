@@ -17,6 +17,6 @@ public abstract class Fu {
         System.out.println("父类方法执行！");
     }
 
-    public abstract /*final*/ void methodAbs() ;
+    public abstract /**final*/ void methodAbs() ;
 
 }
