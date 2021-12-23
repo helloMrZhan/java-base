@@ -19,7 +19,7 @@ import com.zjq.javabase.base11.red.OpenMode;
 public class Bootstrap {
 
     public static void main(String[] args) {
-        MyRed red = new MyRed("zjq双元课程");
+        MyRed red = new MyRed("zjqzjq");
         // 设置群主名称
         red.setOwnerName("王思聪");
 
