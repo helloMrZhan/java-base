@@ -23,24 +23,24 @@
 
 				    eval():讲 JavaScript 字符串，并把它作为脚本代码来执行。
                 3. URL编码
-                   传智播客 =  %E4%BC%A0%E6%99%BA%E6%92%AD%E5%AE%A2
+                   zjq666 =  %E4%BC%A0%E6%99%BA%E6%92%AD%E5%AE%A2
 
 
 
          *
          */
-        var str = "http://www.baidu.com?wd=传智播客";
+        var str = "http://www.baidu.com?wd=zjq666";
         var encode = encodeURI(str);
         document.write(encode +"<br>");//%E4%BC%A0%E6%99%BA%E6%92%AD%E5%AE%A2
         var s = decodeURI(encode);
-        document.write(s +"<br>");//传智播客
+        document.write(s +"<br>");//zjq666
 
 
-        var str1 = "http://www.baidu.com?wd=传智播客";
+        var str1 = "http://www.baidu.com?wd=zjq666";
         var encode1 = encodeURIComponent(str1);
         document.write(encode1 +"<br>");//%E4%BC%A0%E6%99%BA%E6%92%AD%E5%AE%A2
         var s1 = decodeURIComponent(encode);
-        document.write(s1 +"<br>");//传智播客
+        document.write(s1 +"<br>");//zjq666
 
 
         var str = "a234abc";
