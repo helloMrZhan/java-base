@@ -231,7 +231,7 @@
 				FOREIGN KEY (cid) REFERENCES tab_category(cid)
 			);
 			
-			/*创建用户表 tab_user
+			/*创建用户表 user
 			uid 用户主键，自增长
 			username 用户名长度 100，唯一，非空
 			password 密码长度 30，非空
@@ -241,7 +241,7 @@
 			telephone 手机号，字符串 11
 			email 邮箱，字符串长度 100
 			*/
-			CREATE TABLE tab_user (
+			CREATE TABLE user (
 				uid INT PRIMARY KEY AUTO_INCREMENT,
 				username VARCHAR(100) UNIQUE NOT NULL,
 				PASSWORD VARCHAR(30) NOT NULL,
@@ -251,7 +251,7 @@
 				telephone VARCHAR(11),
 				email VARCHAR(100)
 			);
-			
+			INSERT INTO `db3`.`user`(`uid`, `username`, `PASSWORD`, `NAME`, `birthday`, `telephone`) VALUES (1, 'zjq', 'zjq', 'zjq', '2012-01-01', '666666');
 			/*
 			创建收藏表 tab_favorite
 			rid 旅游线路 id，外键

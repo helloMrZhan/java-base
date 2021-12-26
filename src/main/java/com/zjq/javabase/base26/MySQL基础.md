@@ -98,7 +98,7 @@
 				* create database 数据库名称 character set 字符集名;
 	
 			* 练习： 创建db4数据库，判断是否存在，并制定字符集为gbk
-				* create database if not exists db4 character set gbk;
+				* create database if not exists db4 character set utf-8;
 		2. R(Retrieve)：查询
 			* 查询所有数据库的名称:
 				* show databases;
