@@ -37,21 +37,21 @@ public class Demo01List {
         System.out.println(list);//[a, b, c, d, a]  不是地址重写了toString
 
         //public void add(int index, E element): 将指定的元素，添加到该集合中的指定位置上。
-        //在c和d之间添加一个itheima
-        list.add(3,"itheima");//[a, b, c, itheima, d, a]
+        //在c和d之间添加一个zjq666
+        list.add(3,"zjq666");//[a, b, c, zjq666, d, a]
         System.out.println(list);
 
         //public E remove(int index): 移除列表中指定位置的元素, 返回的是被移除的元素。
         //移除元素
         String removeE = list.remove(2);
         System.out.println("被移除的元素:"+removeE);//被移除的元素:c
-        System.out.println(list);//[a, b, itheima, d, a]
+        System.out.println(list);//[a, b, zjq666, d, a]
 
         //public E set(int index, E element):用指定元素替换集合中指定位置的元素,返回值的更新前的元素。
         //把最后一个a,替换为A
         String setE = list.set(4, "A");
         System.out.println("被替换的元素:"+setE);//被替换的元素:a
-        System.out.println(list);//[a, b, itheima, d, A]
+        System.out.println(list);//[a, b, zjq666, d, A]
 
         //List集合遍历有3种方式
         //使用普通的for循环

@@ -3,7 +3,7 @@ package com.zjq.javabase.base25.annotation.demo;
 
 /**
  * 小明定义的计算器类
- * @author dell
+ * @author zjq
  */
 public class Calculator {
 
