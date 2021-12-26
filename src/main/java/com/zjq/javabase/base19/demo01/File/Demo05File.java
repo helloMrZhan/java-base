@@ -76,7 +76,7 @@ public class Demo05File {
         createNewFile声明抛出了IOException,我们调用这个方法,就必须的处理这个异常,要么throws,要么trycatch
      */
     private static void show01() throws IOException {
-        File f1 = new File("C:\\Users\\itcast\\IdeaProjects\\shungyuan\\08_FileAndRecursion\\1.txt");
+        File f1 = new File("C:\\Users\\zjq\\IdeaProjects\\shungyuan\\08_FileAndRecursion\\1.txt");
         boolean b1 = f1.createNewFile();
         System.out.println("b1:"+b1);
 

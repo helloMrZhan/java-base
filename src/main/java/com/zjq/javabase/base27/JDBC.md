@@ -218,9 +218,9 @@
 	            ClassLoader classLoader = JDBCUtils.class.getClassLoader();
 	            URL res  = classLoader.getResource("jdbc.properties");
 	            String path = res.getPath();
-	            System.out.println(path);///D:/IdeaProjects/itcast/out/production/day04_jdbc/jdbc.properties
+	            System.out.println(path);///D:/IdeaProjects/zjq/out/production/day04_jdbc/jdbc.properties
 	            //2. 加载文件
-	           // pro.load(new FileReader("D:\\IdeaProjects\\itcast\\day04_jdbc\\src\\jdbc.properties"));
+	           // pro.load(new FileReader("D:\\IdeaProjects\\zjq\\day04_jdbc\\src\\jdbc.properties"));
 	            pro.load(new FileReader(path));
 	
 	            //3. 获取数据，赋值
@@ -653,8 +653,8 @@
  	 
  			* 代码：
  				
- 				import cn.itcast.domain.Emp;
- 				import cn.itcast.utils.JDBCUtils;
+ 				import cn.zjq.domain.Emp;
+ 				import cn.zjq.utils.JDBCUtils;
  				import org.junit.Test;
  				import org.springframework.jdbc.core.BeanPropertyRowMapper;
  				import org.springframework.jdbc.core.JdbcTemplate;

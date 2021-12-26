@@ -7,12 +7,12 @@ import java.io.File;
         绝对路径:是一个完整的路径
             以盘符(c:,D:)开始的路径
                 c:\\a.txt
-                C:\\Users\itcast\\IdeaProjects\\shungyuan\\123.txt
+                C:\\Users\zjq\\IdeaProjects\\shungyuan\\123.txt
                 D:\\demo\\b.txt
         相对路径:是一个简化的路径
-            相对指的是相对于当前项目的根目录(C:\\Users\itcast\\IdeaProjects\\shungyuan)
+            相对指的是相对于当前项目的根目录(C:\\Users\zjq\\IdeaProjects\\shungyuan)
             如果使用当前项目的根目录,路径可以简化书写
-            C:\\Users\itcast\\IdeaProjects\\shungyuan\\123.txt-->简化为: 123.txt(可以省略项目的根目录)
+            C:\\Users\zjq\\IdeaProjects\\shungyuan\\123.txt-->简化为: 123.txt(可以省略项目的根目录)
         注意:
             1.路径是不区分大小写
             2.路径中的文件名称分隔符windows使用反斜杠,反斜杠是转义字符,两个反斜杠代表一个普通的反斜杠
@@ -28,7 +28,7 @@ public class Demo02File {
         //show02("d:\\","a.txt");//d:\a.txt
         show03();
 
-        File f = new File("C:\\Users\\itcast\\IdeaProjects\\shungyuan");
+        File f = new File("C:\\Users\\zjq\\IdeaProjects\\shungyuan");
         long length = f.length();
         System.out.println(length);
     }
@@ -71,11 +71,11 @@ public class Demo02File {
             创建File对象,只是把字符串路径封装为File对象,不考虑路径的真假情况
      */
     private static void show01() {
-        File f1 = new File("C:\\Users\\itcast\\IdeaProjects\\shungyuan\\a.txt");
-        System.out.println(f1);//重写了Object类的toString方法 C:\Users\itcast\IdeaProjects\shungyuan\a.txt
+        File f1 = new File("C:\\Users\\zjq\\IdeaProjects\\shungyuan\\a.txt");
+        System.out.println(f1);//重写了Object类的toString方法 C:\Users\zjq\IdeaProjects\shungyuan\a.txt
 
-        File f2 = new File("C:\\Users\\itcast\\IdeaProjects\\shungyuan");
-        System.out.println(f2);//C:\Users\itcast\IdeaProjects\shungyuan
+        File f2 = new File("C:\\Users\\zjq\\IdeaProjects\\shungyuan");
+        System.out.println(f2);//C:\Users\zjq\IdeaProjects\shungyuan
 
         File f3 = new File("b.txt");
         System.out.println(f3);//b.txt

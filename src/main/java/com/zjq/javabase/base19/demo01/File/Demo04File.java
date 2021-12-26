@@ -28,7 +28,7 @@ public class Demo04File {
             这两个方法使用前提,路径必须是存在的,否则都返回false
      */
     private static void show02() {
-        File f1 = new File("C:\\Users\\itcast\\IdeaProjects\\shung");
+        File f1 = new File("C:\\Users\\zjq\\IdeaProjects\\shung");
 
         //不存在,就没有必要获取
         if(f1.exists()){
@@ -36,13 +36,13 @@ public class Demo04File {
             System.out.println(f1.isFile());
         }
 
-        File f2 = new File("C:\\Users\\itcast\\IdeaProjects\\shungyuan");
+        File f2 = new File("C:\\Users\\zjq\\IdeaProjects\\shungyuan");
         if(f2.exists()){
             System.out.println(f2.isDirectory());//true
             System.out.println(f2.isFile());//false
         }
 
-        File f3 = new File("C:\\Users\\itcast\\IdeaProjects\\shungyuan\\shungyuan.iml");
+        File f3 = new File("C:\\Users\\zjq\\IdeaProjects\\shungyuan\\shungyuan.iml");
         if(f3.exists()){
             System.out.println(f3.isDirectory());//false
             System.out.println(f3.isFile());//true
@@ -56,13 +56,13 @@ public class Demo04File {
             不存在:false
      */
     private static void show01() {
-        File f1 = new File("C:\\Users\\itcast\\IdeaProjects\\shungyuan");
+        File f1 = new File("C:\\Users\\zjq\\IdeaProjects\\shungyuan");
         System.out.println(f1.exists());//true
 
-        File f2 = new File("C:\\Users\\itcast\\IdeaProjects\\shung");
+        File f2 = new File("C:\\Users\\zjq\\IdeaProjects\\shung");
         System.out.println(f2.exists());//false
 
-        File f3 = new File("shungyuan.iml");//相对路径 C:\Users\itcast\IdeaProjects\shungyuan\shungyuan.iml
+        File f3 = new File("shungyuan.iml");//相对路径 C:\Users\zjq\IdeaProjects\shungyuan\shungyuan.iml
         System.out.println(f3.exists());//true
 
         File f4 = new File("a.txt");

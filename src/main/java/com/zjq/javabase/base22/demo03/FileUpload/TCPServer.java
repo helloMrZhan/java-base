@@ -62,7 +62,7 @@ public class TCPServer {
                         自定义一个文件的命名规则:防止同名的文件被覆盖
                         规则:域名+毫秒值+随机数
                      */
-                       String fileName = "itcast"+System.currentTimeMillis()+new Random().nextInt(999999)+".jpg";
+                       String fileName = "zjq"+System.currentTimeMillis()+new Random().nextInt(999999)+".jpg";
 
                        //5.创建一个本地字节输出流FileOutputStream对象,构造方法中绑定要输出的目的地
                        //FileOutputStream fos = new FileOutputStream(file+"\\1.jpg");

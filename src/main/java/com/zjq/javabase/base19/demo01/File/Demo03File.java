@@ -39,11 +39,11 @@ public class Demo03File {
         获取的就是构造方法传递路径的结尾部分(文件/文件夹)
      */
     private static void show03() {
-        File f1 = new File("C:\\Users\\itcast\\IdeaProjects\\shungyuan\\a.txt");
+        File f1 = new File("C:\\Users\\zjq\\IdeaProjects\\shungyuan\\a.txt");
         String name1 = f1.getName();
         System.out.println(name1);//a.txt
 
-        File f2 = new File("C:\\Users\\itcast\\IdeaProjects\\shungyuan");
+        File f2 = new File("C:\\Users\\zjq\\IdeaProjects\\shungyuan");
         String name2 = f2.getName();
         System.out.println(name2);//shungyuan
     }
@@ -59,15 +59,15 @@ public class Demo03File {
             }
      */
     private static void show02() {
-        File f1 = new File("C:\\Users\\itcast\\IdeaProjects\\shungyuan\\a.txt");
+        File f1 = new File("C:\\Users\\zjq\\IdeaProjects\\shungyuan\\a.txt");
         File f2 = new File("a.txt");
         String path1 = f1.getPath();
-        System.out.println(path1);//C:\Users\itcast\IdeaProjects\shungyuan\a.txt
+        System.out.println(path1);//C:\Users\zjq\IdeaProjects\shungyuan\a.txt
         String path2 = f2.getPath();
         System.out.println(path2);//a.txt
 
-        System.out.println(f1);//C:\Users\itcast\IdeaProjects\shungyuan\a.txt
-        System.out.println(f1.toString());//C:\Users\itcast\IdeaProjects\shungyuan\a.txt
+        System.out.println(f1);//C:\Users\zjq\IdeaProjects\shungyuan\a.txt
+        System.out.println(f1.toString());//C:\Users\zjq\IdeaProjects\shungyuan\a.txt
     }
 
     /**
@@ -76,12 +76,12 @@ public class Demo03File {
         无论路径是绝对的还是相对的,getAbsolutePath方法返回的都是绝对路径
      */
     private static void show01() {
-        File f1 = new File("C:\\Users\\itcast\\IdeaProjects\\shungyuan\\a.txt");
+        File f1 = new File("C:\\Users\\zjq\\IdeaProjects\\shungyuan\\a.txt");
         String absolutePath1 = f1.getAbsolutePath();
-        System.out.println(absolutePath1);//C:\Users\itcast\IdeaProjects\shungyuan\a.txt
+        System.out.println(absolutePath1);//C:\Users\zjq\IdeaProjects\shungyuan\a.txt
 
         File f2 = new File("a.txt");
         String absolutePath2 = f2.getAbsolutePath();
-        System.out.println(absolutePath2);//C:\Users\itcast\IdeaProjects\shungyuan\a.txt
+        System.out.println(absolutePath2);//C:\Users\zjq\IdeaProjects\shungyuan\a.txt
     }
 }

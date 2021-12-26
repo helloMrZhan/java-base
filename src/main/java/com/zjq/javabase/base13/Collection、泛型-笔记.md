@@ -208,7 +208,7 @@ public class GenericDemo {
 	public static void main(String[] args) {
 		Collection coll = new ArrayList();
 		coll.add("abc");
-		coll.add("itcast");
+		coll.add("zjq");
 		coll.add(5);//由于集合没有做任何限定，任何类型都可以给其中存放
 		Iterator it = coll.iterator();
 		while(it.hasNext()){
@@ -240,7 +240,7 @@ public class GenericDemo2 {
 	public static void main(String[] args) {
         Collection<String> list = new ArrayList<String>();
         list.add("abc");
-        list.add("itcast");
+        list.add("zjq");
         // list.add(5);//当集合明确类型后，存放类型不一致就会编译报错
         // 集合已经明确具体存放的元素类型，那么在使用迭代器的时候，迭代器也同样会知道具体遍历元素类型
         Iterator<String> it = list.iterator();
