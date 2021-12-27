@@ -34,7 +34,7 @@ public class ResponseDemo1 extends HttpServlet {
 
         //简单的重定向方法
         response.sendRedirect(contextPath+"/responseDemo2");
-        //response.sendRedirect("http://www.itcast.cn");
+        //response.sendRedirect("http://www.zjq.cn");
 
     }
 
