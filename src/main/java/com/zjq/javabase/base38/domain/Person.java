@@ -1,4 +1,4 @@
-package cn.com.zjq.javabase.base39.domain;
+package com.zjq.javabase.base38.domain;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 

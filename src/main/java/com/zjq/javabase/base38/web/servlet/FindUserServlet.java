@@ -1,4 +1,4 @@
-package cn.com.zjq.javabase.base39.web.servlet;
+package com.zjq.javabase.base38.web.servlet;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 

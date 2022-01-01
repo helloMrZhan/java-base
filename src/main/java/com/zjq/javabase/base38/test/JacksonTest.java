@@ -1,7 +1,7 @@
-package cn.com.zjq.javabase.base39.test;
+package com.zjq.javabase.base38.test;
 
-import cn.com.zjq.javabase.base39.domain.Person;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.zjq.javabase.base38.domain.Person;
 import org.junit.Test;
 
 import java.io.FileWriter;
