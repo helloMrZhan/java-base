@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.util.Random;
 
 /**
- * @author Administrator
+ * @author zjq
  */
 @WebServlet("/checkCodeServlet")
 public class CheckCodeServlet extends HttpServlet {
