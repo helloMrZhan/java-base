@@ -51,5 +51,12 @@ public class Demo04VariableNotice {
 		System.out.println(x); // 100
 		System.out.println(y); // 200
 		System.out.println(z); // 300
+
+		int i = 1;
+		byte j = 2;
+		// byte t = b + i; // 报错
+		//int类型和byte类型运算，结果是int类型
+		int k = i + j;
+		System.out.println(k);
 	}
 }
