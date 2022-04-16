@@ -16,10 +16,9 @@ public class Hero {
         this.skill = skill;
     }
 
-    public void attack() {
-        System.out.println("我叫" + name + "，开始施放技能：");
-        skill.use(); // 调用接口中的抽象方法
-        System.out.println("施放技能完成。");
+    public void attack(String name,String skillType) {
+        // 调用接口中的抽象方法
+        skill.use(name,skillType);
     }
 
     public String getName() {
