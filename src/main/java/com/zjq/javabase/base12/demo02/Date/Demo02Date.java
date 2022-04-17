@@ -7,7 +7,7 @@ import java.util.Date;
  */
 public class Demo02Date {
     public static void main(String[] args) {
-        demo03();
+        demo02();
     }
 
     /**
@@ -25,9 +25,9 @@ public class Demo02Date {
         Date(long date) :传递毫秒值,把毫秒值转换为Date日期
      */
     private static void demo02() {
+        System.out.println(new Date());
         Date date = new Date(0L);
         System.out.println(date);// Thu Jan 01 08:00:00 CST 1970
-
         date = new Date(3742767540068L);
         System.out.println(date);// Sun Aug 08 09:39:00 CST 2088
     }

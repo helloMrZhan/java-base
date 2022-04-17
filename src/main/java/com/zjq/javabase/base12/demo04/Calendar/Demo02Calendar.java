@@ -23,7 +23,7 @@ import java.util.Date;
  */
 public class Demo02Calendar {
     public static void main(String[] args) {
-        demo04();
+        demo01();
     }
 
     /**
@@ -110,7 +110,7 @@ public class Demo02Calendar {
         System.out.println(year);
 
         int month = c.get(Calendar.MONTH);
-        System.out.println(month);//西方的月份0-11 东方:1-12
+        System.out.println(month+1);//西方的月份0-11 东方:1-12
 
         //int date = c.get(Calendar.DAY_OF_MONTH);
         int date = c.get(Calendar.DATE);

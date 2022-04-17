@@ -33,6 +33,10 @@ public class Demo02Test {
         //5.使用当前日期的毫秒值-出生日期的毫秒值
         long time = todayTime-birthdayDateTime;
         //6.把毫秒差值转换为天(s/1000/60/60/24)
-        System.out.println(time/1000/60/60/24);
+        if (time < 0){
+            System.out.println("还没出生呢");
+        } else {
+            System.out.println("出生的天数："+time/1000/60/60/24);
+        }
     }
 }
