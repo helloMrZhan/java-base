@@ -76,9 +76,9 @@ public class DouDiZhu {
         }
 
         //4.看牌
-        System.out.println("刘德华:"+player01);
-        System.out.println("周润发:"+player02);
-        System.out.println("周星驰:"+player03);
+        System.out.println("赌侠-刘德华:"+player01);
+        System.out.println("赌神-周润发:"+player02);
+        System.out.println("赌圣-周星驰:"+player03);
         System.out.println("底牌:"+diPai);
     }
 }
