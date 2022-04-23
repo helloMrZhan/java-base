@@ -29,8 +29,8 @@ public class Demo01Runnable {
         //3.创建一个Runnable接口的实现类对象
         RunnableImpl run = new RunnableImpl();
         //4.创建Thread类对象,构造方法中传递Runnable接口的实现类对象
-        //Thread t = new Thread(run);//打印线程名称
-        Thread t = new Thread(new RunnableImpl2());//打印HelloWorld
+        Thread t = new Thread(run);//打印线程名称
+        //Thread t = new Thread(new RunnableImpl2());//打印HelloWorld
         //5.调用Thread类中的start方法,开启新的线程执行run方法
         t.start();
 

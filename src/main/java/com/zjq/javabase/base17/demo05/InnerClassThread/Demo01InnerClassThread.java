@@ -38,7 +38,7 @@ public class Demo01InnerClassThread {
             @Override
             public void run() {
                 for (int i = 0; i <20 ; i++) {
-                    System.out.println(Thread.currentThread().getName()+"-->"+"程序员");
+                    System.out.println(Thread.currentThread().getName()+"-->"+"线程");
                 }
             }
         };
