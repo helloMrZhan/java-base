@@ -25,7 +25,8 @@ public class RunnableImpl implements Runnable{
         System.out.println("this:"+this);//this:com.zjq.javabase.base17.demo08.Synchronized.RunnableImpl@58ceff1
         //使用死循环,让卖票操作重复执行
         while(true){
-            payTicketStatic();
+            payTicket();
+            //payTicketStatic();
         }
     }
 
