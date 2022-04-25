@@ -29,7 +29,7 @@ public class Demo01WaitAndNotify {
                while(true){
                    //保证等待和唤醒的线程只能有一个执行,需要使用同步技术
                    synchronized (obj){
-                       System.out.println("告知老板要的包子的种类和数量");
+                       System.out.println(Thread.currentThread().getName()+"顾客告知老板要的包子的种类和数量");
                        //调用wait方法,放弃cpu的执行,进入到WAITING状态(无限等待)
                        try {
                            obj.wait();
@@ -59,7 +59,7 @@ public class Demo01WaitAndNotify {
 
                     //保证等待和唤醒的线程只能有一个执行,需要使用同步技术
                     synchronized (obj){
-                        System.out.println("老板5秒钟之后做好包子,告知顾客,可以吃包子了");
+                        System.out.println(Thread.currentThread().getName()+"老板5秒钟之后做好包子,告知顾客,可以吃包子了");
                         //做好包子之后,调用notify方法,唤醒顾客吃包子
                         obj.notify();
                     }
