@@ -21,6 +21,7 @@ import java.io.File;
  */
 public class Demo02File {
     public static void main(String[] args) {
+//        show01();
         /**
             File类的构造方法
          */
@@ -28,7 +29,7 @@ public class Demo02File {
         //show02("d:\\","a.txt");//d:\a.txt
         show03();
 
-        File f = new File("C:\\Users\\zjq\\IdeaProjects\\shungyuan");
+        File f = new File("D:\\zjq\\aaa\\a.txt");
         long length = f.length();
         System.out.println(length);
     }
@@ -71,11 +72,11 @@ public class Demo02File {
             创建File对象,只是把字符串路径封装为File对象,不考虑路径的真假情况
      */
     private static void show01() {
-        File f1 = new File("C:\\Users\\zjq\\IdeaProjects\\shungyuan\\a.txt");
-        System.out.println(f1);//重写了Object类的toString方法 C:\Users\zjq\IdeaProjects\shungyuan\a.txt
+        File f1 = new File("D:\\zjq\\aaa\\a.txt");
+        System.out.println(f1);//重写了Object类的toString方法 D:\zjq\aaa\a.txt
 
-        File f2 = new File("C:\\Users\\zjq\\IdeaProjects\\shungyuan");
-        System.out.println(f2);//C:\Users\zjq\IdeaProjects\shungyuan
+        File f2 = new File("D:\\zjq\\aaa");
+        System.out.println(f2);//D:\zjq\aaa
 
         File f3 = new File("b.txt");
         System.out.println(f3);//b.txt

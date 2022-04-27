@@ -23,7 +23,7 @@ public class Demo06File {
         遍历构造方法中给出的目录,会获取目录中所有的文件/文件夹,把文件/文件夹封装为File对象,多个File对象存储到File数组中
      */
     private static void show02() {
-        File file = new File("C:\\Users\\zjq\\IdeaProjects\\shungyuan\\08_FileAndRecursion");
+        File file = new File("D:\\zjq\\aaa\\08_FileAndRecursion");
         File[] files = file.listFiles();
         for (File f : files) {
             System.out.println(f);
@@ -35,9 +35,9 @@ public class Demo06File {
         遍历构造方法中给出的目录,会获取目录中所有文件/文件夹的名称,把获取到的多个名称存储到一个String类型的数组中
      */
     private static void show01() {
-        //File file = new File("C:\\Users\\zjq\\IdeaProjects\\shungyuan\\08_FileAndRecursion\\1.txt");//NullPointerException
-        //File file = new File("C:\\Users\\zjq\\IdeaProjects\\shungyuan\\08_Fi");//NullPointerException
-        File file = new File("C:\\Users\\zjq\\IdeaProjects\\shungyuan\\08_FileAndRecursion");
+        //File file = new File("D:\\zjq\\aaa\\08_FileAndRecursion\\1.txt");//NullPointerException
+        //File file = new File("D:\\zjq\\aaa\\08_Fi");//NullPointerException
+        File file = new File("D:\\zjq\\aaa\\08_FileAndRecursion");
         String[] arr = file.list();
         for (String fileName : arr) {
             System.out.println(fileName);

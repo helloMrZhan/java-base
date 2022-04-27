@@ -12,7 +12,7 @@ import java.io.File;
  */
 public class Demo03File {
     public static void main(String[] args) {
-        show04();
+        show01();
     }
 
     /**
@@ -23,9 +23,9 @@ public class Demo03File {
             如果构造方法中给出的路径不存在,那么length方法返回0
      */
     private static void show04() {
-        File f1 = new File("C:\\develop\\a\\1.jpg");
+        File f1 = new File("D:\\zjq\\aaa\\a.txt");
         long l1 = f1.length();
-        System.out.println(l1);//780831字节
+        System.out.println(l1);//29字节
 
         File f2 = new File("C:\\develop\\a\\2.jpg");
         System.out.println(f2.length());//0
@@ -39,11 +39,11 @@ public class Demo03File {
         获取的就是构造方法传递路径的结尾部分(文件/文件夹)
      */
     private static void show03() {
-        File f1 = new File("C:\\Users\\zjq\\IdeaProjects\\shungyuan\\a.txt");
+        File f1 = new File("D:\\zjq\\aaa\\a.txt");
         String name1 = f1.getName();
         System.out.println(name1);//a.txt
 
-        File f2 = new File("C:\\Users\\zjq\\IdeaProjects\\shungyuan");
+        File f2 = new File("D:\\zjq\\aaa");
         String name2 = f2.getName();
         System.out.println(name2);//shungyuan
     }
@@ -59,15 +59,15 @@ public class Demo03File {
             }
      */
     private static void show02() {
-        File f1 = new File("C:\\Users\\zjq\\IdeaProjects\\shungyuan\\a.txt");
+        File f1 = new File("D:\\zjq\\aaa\\a.txt");
         File f2 = new File("a.txt");
         String path1 = f1.getPath();
-        System.out.println(path1);//C:\Users\zjq\IdeaProjects\shungyuan\a.txt
+        System.out.println(path1);//D:\zjq\aaa\a.txt
         String path2 = f2.getPath();
         System.out.println(path2);//a.txt
 
-        System.out.println(f1);//C:\Users\zjq\IdeaProjects\shungyuan\a.txt
-        System.out.println(f1.toString());//C:\Users\zjq\IdeaProjects\shungyuan\a.txt
+        System.out.println(f1);//D:\zjq\aaa\a.txt
+        System.out.println(f1.toString());//D:\zjq\aaa\a.txt
     }
 
     /**
@@ -76,12 +76,12 @@ public class Demo03File {
         无论路径是绝对的还是相对的,getAbsolutePath方法返回的都是绝对路径
      */
     private static void show01() {
-        File f1 = new File("C:\\Users\\zjq\\IdeaProjects\\shungyuan\\a.txt");
+        File f1 = new File("D:\\zjq\\aaa\\a.txt");
         String absolutePath1 = f1.getAbsolutePath();
-        System.out.println(absolutePath1);//C:\Users\zjq\IdeaProjects\shungyuan\a.txt
+        System.out.println(absolutePath1);//D:\zjq\aaa\a.txt
 
         File f2 = new File("a.txt");
         String absolutePath2 = f2.getAbsolutePath();
-        System.out.println(absolutePath2);//C:\Users\zjq\IdeaProjects\shungyuan\a.txt
+        System.out.println(absolutePath2);//D:\zjq\aaa\a.txt
     }
 }
