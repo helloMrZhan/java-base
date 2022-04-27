@@ -6,22 +6,22 @@ import java.io.File;
     练习:
         递归打印多级目录
     需求:
-        遍历c:\\abc文件夹,及abc文件夹的子文件夹
+        遍历D:\\zjq文件夹,及zjq文件夹的子文件夹
         只要.java结尾的文件
-        c:\\abc
-        c:\\abc\\abc.txt
-        c:\\abc\\abc.java
-        c:\\abc\\a
-        c:\\abc\\a\\a.jpg
-        c:\\abc\\a\\a.java
-        c:\\abc\\b
-        c:\\abc\\b\\b.java
-        c:\\abc\\b\\b.txt
+         D:\\zjq
+         D:\\zjq\\abc.txt
+         D:\\zjq\\abc.java
+         D:\\zjq\\aaa
+         D:\\zjq\\aaa\\a.txt
+         D:\\zjq\\aaa\\a.java
+         D:\\zjq\\bbb
+         D:\\zjq\\bbb\\b.java
+         D:\\zjq\\bbb\\b.txt
  * @author zjq
  */
 public class Demo05Recurison {
     public static void main(String[] args) {
-        File file = new File("c:\\abc");
+        File file = new File("D:\\zjq");
         getAllFile(file);
     }
 
@@ -42,13 +42,13 @@ public class Demo05Recurison {
             }else{
                 //f是一个文件,直接打印即可
                 /**
-                    c:\\abc\\abc.java
+                    D:\\zjq\\abc.java
                     只要.java结尾的文件
                     1.把File对象f,转为字符串对象
                  */
                 //String name = f.getName();//abc.java
-                //String path = f.getPath();//c:\\abc\\abc.java
-                //String s = f.toString();//c:\\abc\\abc.java
+                //String path = f.getPath();//D:\\zjq\\abc.java
+                //String s = f.toString();//D:\\zjq\\abc.java
 
                 //把字符串,转换为小写
                 //s = s.toLowerCase();

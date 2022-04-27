@@ -6,22 +6,22 @@ import java.io.File;
     练习:
         递归打印多级目录
     需求:
-        遍历c:\\abc文件夹,及abc文件夹的子文件夹
-        c:\\abc
-        c:\\abc\\abc.txt
-        c:\\abc\\abc.java
-        c:\\abc\\a
-        c:\\abc\\a\\a.jpg
-        c:\\abc\\a\\a.java
-        c:\\abc\\b
-        c:\\abc\\b\\b.java
-        c:\\abc\\b\\b.txt
+        遍历D:\\zjq文件夹,及abc文件夹的子文件夹
+        D:\\zjq
+        D:\\zjq\\abc.txt
+        D:\\zjq\\abc.java
+        D:\\zjq\\aaa
+        D:\\zjq\\aaa\\a.txt
+        D:\\zjq\\aaa\\a.java
+        D:\\zjq\\bbb
+        D:\\zjq\\bbb\\b.java
+        D:\\zjq\\bbb\\b.txt
  *
  * @author zjq
  */
 public class Demo04Recurison {
     public static void main(String[] args) {
-        File file = new File("c:\\abc");
+        File file = new File("D:\\zjq");
         getAllFile(file);
     }
 

@@ -16,8 +16,8 @@ package com.zjq.javabase.base19.demo02.Recursion;
  */
 public class Demo01Recurison {
     public static void main(String[] args) {
-        //a();
-        b(1);
+        a();
+        //b(1);
     }
 
     /**
