@@ -35,7 +35,7 @@ import java.io.IOException;
 public class Demo04BufferedReader {
     public static void main(String[] args) throws IOException {
         //1.创建字符缓冲输入流对象,构造方法中传递字符输入流
-        BufferedReader br = new BufferedReader(new FileReader("10_IO\\c.txt"));
+        BufferedReader br = new BufferedReader(new FileReader("E:\\c.txt"));
 
         //2.使用字符缓冲输入流对象中的方法read/readLine读取文本
         /**String line = br.readLine();

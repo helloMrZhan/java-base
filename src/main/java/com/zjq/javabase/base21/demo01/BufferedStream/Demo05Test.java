@@ -25,9 +25,9 @@ public class Demo05Test {
         //1.创建一个HashMap集合对象,可以:存储每行文本的序号(1,2,3,..);value:存储每行的文本
         HashMap<String,String> map = new HashMap<>();
         //2.创建字符缓冲输入流对象,构造方法中绑定字符输入流
-        BufferedReader br = new BufferedReader(new FileReader("10_IO\\in.txt"));
+        BufferedReader br = new BufferedReader(new FileReader("E:\\in.txt"));
         //3.创建字符缓冲输出流对象,构造方法中绑定字符输出流
-        BufferedWriter bw = new BufferedWriter(new FileWriter("10_IO\\out.txt"));
+        BufferedWriter bw = new BufferedWriter(new FileWriter("E:\\out.txt"));
         //4.使用字符缓冲输入流中的方法readline,逐行读取文本
         String line;
         while((line = br.readLine())!=null){

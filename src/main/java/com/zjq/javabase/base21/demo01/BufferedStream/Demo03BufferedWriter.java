@@ -42,7 +42,7 @@ public class Demo03BufferedWriter {
     public static void main(String[] args) throws IOException {
         //System.out.println();
         //1.创建字符缓冲输出流对象,构造方法中传递字符输出流
-        BufferedWriter bw = new BufferedWriter(new FileWriter("10_IO\\c.txt"));
+        BufferedWriter bw = new BufferedWriter(new FileWriter("E:\\c.txt"));
         //2.调用字符缓冲输出流中的方法write,把数据写入到内存缓冲区中
         for (int i = 0; i <10 ; i++) {
             bw.write("zjq");

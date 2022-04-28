@@ -31,7 +31,7 @@ import java.io.IOException;
 public class Demo02BufferedInputStream {
     public static void main(String[] args) throws IOException {
         //1.创建FileInputStream对象,构造方法中绑定要读取的数据源
-        FileInputStream fis = new FileInputStream("10_IO\\a.txt");
+        FileInputStream fis = new FileInputStream("E:\\a.txt");
         //2.创建BufferedInputStream对象,构造方法中传递FileInputStream对象,提高FileInputStream对象的读取效率
         BufferedInputStream bis = new BufferedInputStream(fis);
         //3.使用BufferedInputStream对象中的方法read,读取文件

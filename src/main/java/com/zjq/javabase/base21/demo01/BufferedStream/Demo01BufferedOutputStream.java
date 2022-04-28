@@ -34,7 +34,7 @@ import java.io.IOException;
 public class Demo01BufferedOutputStream {
     public static void main(String[] args) throws IOException {
         //1.创建FileOutputStream对象,构造方法中绑定要输出的目的地
-        FileOutputStream fos = new FileOutputStream("10_IO\\a.txt");
+        FileOutputStream fos = new FileOutputStream("E:\\a.txt");
         //2.创建BufferedOutputStream对象,构造方法中传递FileOutputStream对象对象,提高FileOutputStream对象效率
         BufferedOutputStream bos = new BufferedOutputStream(fos);
         //3.使用BufferedOutputStream对象中的方法write,把数据写入到内部缓冲区中
