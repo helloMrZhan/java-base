@@ -33,7 +33,7 @@ public class Demo01PrintStream {
         //System.out.println("HelloWorld");
 
         //创建打印流PrintStream对象,构造方法中绑定要输出的目的地
-        PrintStream ps = new PrintStream("10_IO\\print.txt");
+        PrintStream ps = new PrintStream("E:\\print.txt");
         //如果使用继承自父类的write方法写数据,那么查看数据的时候会查询编码表 97->a
         ps.write(97);
         //如果使用自己特有的方法print/println方法写数据,写的数据原样输出 97->97

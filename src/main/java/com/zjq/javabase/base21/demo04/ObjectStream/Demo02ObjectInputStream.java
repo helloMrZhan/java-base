@@ -32,7 +32,7 @@ import java.io.ObjectInputStream;
 public class Demo02ObjectInputStream {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         //1.创建ObjectInputStream对象,构造方法中传递字节输入流
-        ObjectInputStream ois = new ObjectInputStream(new FileInputStream("10_IO\\person.txt"));
+        ObjectInputStream ois = new ObjectInputStream(new FileInputStream("E:\\person.txt"));
         //2.使用ObjectInputStream对象中的方法readObject读取保存对象的文件
         Object o = ois.readObject();
         //3.释放资源
