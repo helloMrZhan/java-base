@@ -13,7 +13,7 @@ import java.io.IOException;
  */
 public class Demo05File {
     public static void main(String[] args) throws IOException {
-        show03();
+        show01();
     }
 
     /**

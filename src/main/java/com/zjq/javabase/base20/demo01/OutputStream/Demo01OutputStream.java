@@ -1,5 +1,6 @@
 package com.zjq.javabase.base20.demo01.OutputStream;
 
+import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
@@ -40,8 +41,13 @@ import java.io.IOException;
  */
 public class Demo01OutputStream {
     public static void main(String[] args) throws IOException {
+        File file = new File("D:\\zjq\\IOAndProperties\\a.txt");
+        if(file.exists()){
+            //file.mkdir();
+            file.createNewFile();
+        }
         //1.创建一个FileOutputStream对象,构造方法中传递写入数据的目的地
-        FileOutputStream fos = new FileOutputStream("09_IOAndProperties\\a.txt");
+        FileOutputStream fos = new FileOutputStream(file);
         //2.调用FileOutputStream对象中的方法write,把数据写入到文件中
         //public abstract void write(int b) ：将指定的字节输出流。
         fos.write(97);

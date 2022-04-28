@@ -42,7 +42,7 @@ public class Demo04File {
             System.out.println(f2.isFile());//false
         }
 
-        File f3 = new File("D:\\zjq\\aaa\\shungyuan.iml");
+        File f3 = new File("D:\\zjq\\aaa\\zjq.iml");
         if(f3.exists()){
             System.out.println(f3.isDirectory());//false
             System.out.println(f3.isFile());//true
@@ -62,7 +62,7 @@ public class Demo04File {
         File f2 = new File("D:\\zjq\\aaa");
         System.out.println(f2.exists());//false
 
-        File f3 = new File("shungyuan.iml");//相对路径 D:\zjq\aaa\shungyuan.iml
+        File f3 = new File("888.iml");//相对路径 D:\zjq\aaa\shungyuan.iml
         System.out.println(f3.exists());//true
 
         File f4 = new File("a.txt");
