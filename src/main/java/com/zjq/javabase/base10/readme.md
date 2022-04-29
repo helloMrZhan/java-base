@@ -1,10 +1,7 @@
-01-生活中接口的举例
-![01-生活中接口的举例](img/01-生活中接口的举例.png)
-02-多态的概述.png
-![02-多态的概述.png](img/02-多态的概述.png)
-03-使用多态的好处.png
-![03-使用多态的好处.png](img/03-使用多态的好处.png)
-04-对象的上下转型
-![04-对象的上下转型](img/04-对象的上下转型.png)
-05-笔记本电脑案例分析.png
-![抽象的概念](img/05-笔记本电脑案例分析.png)
+[Java三大特性(三)—多态](https://blog.csdn.net/qq_35427589/article/details/124210543)
+
+[final、finally、 finalize 有什么不同？](https://blog.csdn.net/qq_35427589/article/details/123576232)
+
+[Java中的强引用、软引用、弱引用、幻象引用有什么区别和使用场景](https://blog.csdn.net/qq_35427589/article/details/123586047)
+
+[Java引用类型(class、interface)用法总结详解](https://blog.csdn.net/qq_35427589/article/details/53501430)
