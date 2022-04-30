@@ -24,7 +24,7 @@ public class Demo01Consumer {
 
     public static void main(String[] args) {
         //调用method方法,传递字符串姓名,方法的另一个参数是Consumer接口,是一个函数式接口,所以可以传递Lambda表达式
-        method("赵丽颖",(String name)->{
+        method("zjq666",(String name)->{
             //对传递的字符串进行消费
             //消费方式:直接输出字符串
             //System.out.println(name);

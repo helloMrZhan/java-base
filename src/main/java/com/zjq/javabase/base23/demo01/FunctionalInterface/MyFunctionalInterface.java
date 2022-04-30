@@ -11,6 +11,9 @@ package com.zjq.javabase.base23.demo01.FunctionalInterface;
  */
 @FunctionalInterface
 public interface MyFunctionalInterface {
-    //定义一个抽象方法
+    /**
+     * 定义一个抽象方法
+     */
     public abstract void method();
+
 }

@@ -30,9 +30,9 @@ public class Demo03Test {
             String name = message.split(",")[0];
             System.out.print("姓名: "+name);
         },(message)->{
-            //消费方式:对message进行切割,获取年龄,按照指定的格式输出
+            //消费方式:对message进行切割,获取性别,按照指定的格式输出
             String age = message.split(",")[1];
-            System.out.println("。年龄: "+age+"。");
+            System.out.println("。性别: "+age+"。");
         });
 
 
