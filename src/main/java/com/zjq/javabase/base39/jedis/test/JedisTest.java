@@ -25,9 +25,10 @@ public class JedisTest {
     public void test1(){
         //1. 获取连接
         Jedis jedis = new Jedis("localhost",6379);
+        //如果有设置密码需要添加这行
+        jedis.auth("123456");
         //2. 操作
-        jedis.set("username","zhangsan");
-
+        jedis.set("username","zhanjq");
         //3. 关闭连接
         jedis.close();
     }
@@ -40,9 +41,11 @@ public class JedisTest {
     public void test2(){
         //1. 获取连接
         Jedis jedis = new Jedis();//如果使用空参构造，默认值 "localhost",6379端口
+        //如果有设置密码需要添加这行
+        jedis.auth("123456");
         //2. 操作
         //存储
-        jedis.set("username","zhangsan");
+        jedis.set("username","zhanjq");
         //获取
         String username = jedis.get("username");
         System.out.println(username);
@@ -61,11 +64,12 @@ public class JedisTest {
     public void test3(){
         //1. 获取连接
         Jedis jedis = new Jedis();//如果使用空参构造，默认值 "localhost",6379端口
+        jedis.auth("123456");
         //2. 操作
         // 存储hash
-        jedis.hset("user","name","lisi");
+        jedis.hset("user","name","zjq");
         jedis.hset("user","age","23");
-        jedis.hset("user","gender","female");
+        jedis.hset("user","gender","male");
 
         // 获取hash
         String name = jedis.hget("user", "name");
@@ -95,6 +99,7 @@ public class JedisTest {
     public void test4(){
         //1. 获取连接
         Jedis jedis = new Jedis();//如果使用空参构造，默认值 "localhost",6379端口
+        jedis.auth("123456");
         //2. 操作
         // list 存储
         jedis.lpush("mylist","a","b","c");//从左边存
@@ -103,7 +108,7 @@ public class JedisTest {
         // list 范围获取
         List<String> mylist = jedis.lrange("mylist", 0, -1);
         System.out.println(mylist);
-        
+
         // list 弹出
         String element1 = jedis.lpop("mylist");//c
         System.out.println(element1);
@@ -128,8 +133,8 @@ public class JedisTest {
     public void test5(){
         //1. 获取连接
         Jedis jedis = new Jedis();//如果使用空参构造，默认值 "localhost",6379端口
+        jedis.auth("123456");
         //2. 操作
-
 
         // set 存储
         jedis.sadd("myset","java","php","c++","java");
@@ -149,6 +154,7 @@ public class JedisTest {
     public void test6(){
         //1. 获取连接
         Jedis jedis = new Jedis();//如果使用空参构造，默认值 "localhost",6379端口
+        jedis.auth("123456");
         //2. 操作
         // sortedset 存储
         jedis.zadd("mysortedset",3,"亚瑟");
@@ -196,10 +202,10 @@ public class JedisTest {
      */
     @Test
     public void test8(){
-        
+
         //通过连接池工具类获取
         Jedis jedis = JedisPoolUtils.getJedis();
-
+        jedis.auth("123456");
 
 
         //3. 使用
