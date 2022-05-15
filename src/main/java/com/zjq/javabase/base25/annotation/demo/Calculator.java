@@ -30,7 +30,6 @@ public class Calculator {
         System.out.println("1 / 0 =" + (1 / 0));
     }
 
-
     public void show(){
         System.out.println("永无bug...");
     }

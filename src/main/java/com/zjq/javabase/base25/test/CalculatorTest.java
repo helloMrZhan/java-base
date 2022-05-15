@@ -41,11 +41,10 @@ public class CalculatorTest {
         Calculator c  = new Calculator();
         //2.调用add方法
         int result = c.add(1, 2);
-        //System.out.println(result);
+        System.out.println(result);
 
         //3.断言  我断言这个结果是3
         Assert.assertEquals(3,result);
-
     }
 
     @Test

@@ -13,17 +13,17 @@
 
 		]>-->
 <students>
-	
+
 	<student number="s001">
-		<name>zhangsan</name>
-		<age>abc</age>
-		<sex>hehe</sex>
+		<name>共饮一杯无</name>
+		<age>23</age>
+		<sex>superman</sex>
 	</student>
 
 	<student number="s002">
-		<name>lisi</name>
-		<age>24</age>
-		<sex>female</sex>
+		<name>zjq</name>
+		<age>18</age>
+		<sex>man</sex>
 	</student>
-	
+
 </students>

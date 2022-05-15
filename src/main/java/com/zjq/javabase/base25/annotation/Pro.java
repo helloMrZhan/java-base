@@ -8,6 +8,7 @@ import java.lang.annotation.Target;
 
 /**
  * 描述需要执行的类名，和方法名
+ * @author zjq
  */
 
 @Target({ElementType.TYPE})

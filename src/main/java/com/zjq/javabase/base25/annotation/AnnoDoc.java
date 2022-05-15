@@ -7,7 +7,7 @@ package com.zjq.javabase.base25.annotation;
  * @version 1.0
  * @since 1.5
  */
-public class AnnoDemo1 {
+public class AnnoDoc {
 
     /**
      * 计算两数的和

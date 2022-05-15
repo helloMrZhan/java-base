@@ -15,10 +15,9 @@ import java.util.Properties;
 public class ReflectTest {
     public static void main(String[] args) throws Exception {
 
-        /*
-            前提：不能改变该类的任何代码。可以创建任意类的对象，可以执行任意方法
+        /**
+         * 前提：不能改变该类的任何代码。可以创建任意类的对象，可以执行任意方法
          */
-
 
         //1.解析注解
         //1.1获取该类的字节码文件对象
@@ -44,9 +43,6 @@ public class ReflectTest {
         String methodName = an.methodName();
         System.out.println(className);
         System.out.println(methodName);
-
-
-
 
 
         //3.加载该类进内存
