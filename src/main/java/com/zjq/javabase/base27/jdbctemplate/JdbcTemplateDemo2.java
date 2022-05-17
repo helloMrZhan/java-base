@@ -15,23 +15,23 @@ import java.util.Map;
 
 /**
  * JdbcTemplate入门
+ *
  * @author zjq
  */
 public class JdbcTemplateDemo2 {
 
-    //Junit单元测试，可以让方法独立执行
-
 
     //1. 获取JDBCTemplate对象
     private JdbcTemplate template = new JdbcTemplate(JDBCUtils.getDataSource());
+
     /**
      * 1. 修改1号数据的 salary 为 10000
      */
     @Test
-    public void test1(){
+    public void test1() {
 
         //2. 定义sql
-        String sql = "update emp set salary = 10000 where id = 1001";
+        String sql = "update emp set salary = 10000 where id = 1";
         //3. 执行sql
         int count = template.update(sql);
         System.out.println(count);
@@ -41,9 +41,9 @@ public class JdbcTemplateDemo2 {
      * 2. 添加一条记录
      */
     @Test
-    public void test2(){
-        String sql = "insert into emp(id,ename,dept_id) values(?,?,?)";
-        int count = template.update(sql, 1015, "郭靖", 10);
+    public void test2() {
+        String sql = "insert into emp(name,dept_id) values(?,?)";
+        int count = template.update(sql, "郭靖", 1);
         System.out.println(count);
 
     }
@@ -52,22 +52,22 @@ public class JdbcTemplateDemo2 {
      * 3.删除刚才添加的记录
      */
     @Test
-    public void test3(){
+    public void test3() {
         String sql = "delete from emp where id = ?";
-        int count = template.update(sql, 1015);
+        int count = template.update(sql, 7);
         System.out.println(count);
     }
 
     /**
-     * 4.查询id为1001的记录，将其封装为Map集合
+     * 4.查询id为1的记录，将其封装为Map集合
      * 注意：这个方法查询的结果集长度只能是1
      */
     @Test
-    public void test4(){
-        String sql = "select * from emp where id = ? or id = ?";
-        Map<String, Object> map = template.queryForMap(sql, 1001,1002);
+    public void test4() {
+        String sql = "select * from emp where id = ? ";
+        Map<String, Object> map = template.queryForMap(sql, 1);
         System.out.println(map);
-        //{id=1001, ename=孙悟空, job_id=4, mgr=1004, joindate=2000-12-17, salary=10000.00, bonus=null, dept_id=20}
+        //{id=1, ename=孙悟空, job_id=4, mgr=1004, joindate=2000-12-17, salary=10000.00, bonus=null, dept_id=20}
 
     }
 
@@ -75,7 +75,7 @@ public class JdbcTemplateDemo2 {
      * 5. 查询所有记录，将其封装为List
      */
     @Test
-    public void test5(){
+    public void test5() {
         String sql = "select * from emp";
         List<Map<String, Object>> list = template.queryForList(sql);
 
@@ -89,7 +89,7 @@ public class JdbcTemplateDemo2 {
      */
 
     @Test
-    public void test6(){
+    public void test6() {
         String sql = "select * from emp";
         List<Emp> list = template.query(sql, new RowMapper<Emp>() {
 
@@ -97,21 +97,17 @@ public class JdbcTemplateDemo2 {
             public Emp mapRow(ResultSet rs, int i) throws SQLException {
                 Emp emp = new Emp();
                 int id = rs.getInt("id");
-                String ename = rs.getString("ename");
-                int job_id = rs.getInt("job_id");
-                int mgr = rs.getInt("mgr");
-                Date joindate = rs.getDate("joindate");
+                String ename = rs.getString("NAME");
+                String gender = rs.getString("gender");
+                Date joindate = rs.getDate("join_date");
                 double salary = rs.getDouble("salary");
-                double bonus = rs.getDouble("bonus");
                 int dept_id = rs.getInt("dept_id");
 
                 emp.setId(id);
-                emp.setEname(ename);
-                emp.setJob_id(job_id);
-                emp.setMgr(mgr);
+                emp.setName(ename);
+                emp.setGender(gender);
                 emp.setJoindate(joindate);
                 emp.setSalary(salary);
-                emp.setBonus(bonus);
                 emp.setDept_id(dept_id);
 
                 return emp;
@@ -129,7 +125,7 @@ public class JdbcTemplateDemo2 {
      */
 
     @Test
-    public void test6_2(){
+    public void test6_2() {
         String sql = "select * from emp";
         List<Emp> list = template.query(sql, new BeanPropertyRowMapper<Emp>(Emp.class));
         for (Emp emp : list) {
@@ -142,7 +138,7 @@ public class JdbcTemplateDemo2 {
      */
 
     @Test
-    public void test7(){
+    public void test7() {
         String sql = "select count(id) from emp";
         Long total = template.queryForObject(sql, Long.class);
         System.out.println(total);

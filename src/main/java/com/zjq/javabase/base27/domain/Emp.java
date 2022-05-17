@@ -8,9 +8,9 @@ import java.util.Date;
  */
 public class Emp {
     private Integer id;
-    private String ename;
+    private String name;
     private Integer job_id;
-    private Integer mgr;
+    private String gender;
     private Date joindate;
     private Double salary;
     private Double bonus;
@@ -25,12 +25,12 @@ public class Emp {
         this.id = id;
     }
 
-    public String getEname() {
-        return ename;
+    public String getName() {
+        return name;
     }
 
-    public void setEname(String ename) {
-        this.ename = ename;
+    public void setName(String ename) {
+        this.name = name;
     }
 
     public Integer getJob_id() {
@@ -41,12 +41,12 @@ public class Emp {
         this.job_id = job_id;
     }
 
-    public Integer getMgr() {
-        return mgr;
+    public String getGender() {
+        return gender;
     }
 
-    public void setMgr(Integer mgr) {
-        this.mgr = mgr;
+    public void setGender(String gender) {
+        this.gender = gender;
     }
 
     public Date getJoindate() {
@@ -85,9 +85,9 @@ public class Emp {
     public String toString() {
         return "Emp{" +
                 "id=" + id +
-                ", ename='" + ename + '\'' +
+                ", name='" + name + '\'' +
                 ", job_id=" + job_id +
-                ", mgr=" + mgr +
+                ", gender=" + gender +
                 ", joindate=" + joindate +
                 ", salary=" + salary +
                 ", bonus=" + bonus +

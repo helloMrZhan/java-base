@@ -44,9 +44,8 @@ public class JDBCDemo8 {
             while(rs.next()){
                 //获取数据
                 int id = rs.getInt("id");
-                String ename = rs.getString("ename");
+                String ename = rs.getString("name");
                 int job_id = rs.getInt("job_id");
-                int mgr = rs.getInt("mgr");
                 Date joindate = rs.getDate("joindate");
                 double salary = rs.getDouble("salary");
                 double bonus = rs.getDouble("bonus");
@@ -54,9 +53,8 @@ public class JDBCDemo8 {
                 // 创建emp对象,并赋值
                 emp = new Emp();
                 emp.setId(id);
-                emp.setEname(ename);
+                emp.setName(ename);
                 emp.setJob_id(job_id);
-                emp.setMgr(mgr);
                 emp.setJoindate(joindate);
                 emp.setSalary(salary);
                 emp.setBonus(bonus);
@@ -126,7 +124,7 @@ public class JDBCDemo8 {
             while(rs.next()){
                 //获取数据
                 int id = rs.getInt("id");
-                String ename = rs.getString("ename");
+                String ename = rs.getString("name");
                 int job_id = rs.getInt("job_id");
                 int mgr = rs.getInt("mgr");
                 Date joindate = rs.getDate("joindate");
@@ -136,9 +134,8 @@ public class JDBCDemo8 {
                 // 创建emp对象,并赋值
                 emp = new Emp();
                 emp.setId(id);
-                emp.setEname(ename);
+                emp.setName(ename);
                 emp.setJob_id(job_id);
-                emp.setMgr(mgr);
                 emp.setJoindate(joindate);
                 emp.setSalary(salary);
                 emp.setBonus(bonus);
