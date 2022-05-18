@@ -4,12 +4,12 @@
 ### Java环境搭建
 [Java环境搭建](https://blog.csdn.net/qq_35427589/article/details/121789261)
 ### Java基础语法
-[计算机存储单位转换（KB MB GB TB PB EB ZB）](https://blog.csdn.net/qq_35427589/article/details/121789421)
+[计算机存储单位转换（KB MB GB TB PB EB ZB）](https://blog.csdn.net/qq_35427589/article/details/121789421)  
 [常量和变量](https://blog.csdn.net/qq_35427589/article/details/124096741)   
 ## base02：[Java基础语法--数据类型转换、运算符、方法入门](src/main/java/com/zjq/javabase/base02)  
-[数据类型转换](https://blog.csdn.net/qq_35427589/article/details/124110076)
-[算数、赋值、比较、逻辑、三元运算符](https://blog.csdn.net/qq_35427589/article/details/124115275)
-[方法的定义和调用](https://blog.csdn.net/qq_35427589/article/details/124115510)     
+[数据类型转换](https://blog.csdn.net/qq_35427589/article/details/124110076)   
+[算数、赋值、比较、逻辑、三元运算符](https://blog.csdn.net/qq_35427589/article/details/124115275)    
+[方法的定义和调用](https://blog.csdn.net/qq_35427589/article/details/124115510)      
 ## base03：[Java基础语法--流程控制语句](src/main/java/com/zjq/javabase/base03) 
 [流程控制语句](https://blog.csdn.net/qq_35427589/article/details/124121707)       
 ## base04：[Java基础语法--方法](src/main/java/com/zjq/javabase/base04)      
