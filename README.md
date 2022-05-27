@@ -49,7 +49,10 @@
 ## base21：[File类与IO流--缓冲流、转换流、序列化流、打印流](src/main/java/com/zjq/javabase/base21)   
               
 ## base22：[网络编程](src/main/java/com/zjq/javabase/base22)         
-        
+[Java网络编程入门(软件结构、网络通信协议、网络编程三要素)](https://blog.csdn.net/qq_35427589/article/details/124496961)  
+[Java网络编程之通过代码实现Socket通信](https://blog.csdn.net/qq_35427589/article/details/124497008)  
+[Java网络编程之实现文件上传](https://blog.csdn.net/qq_35427589/article/details/124497238)  
+[Java网络编程之InetAddress类详解，URL和URI的区别，URLDecoder和URLEncoder，IPv6和IPv4区别，IPv6的三种表示方法](https://blog.csdn.net/qq_35427589/article/details/124968020)        
 ## base23：[Java8新特性--函数式接口](src/main/java/com/zjq/javabase/base23)          
        
 ## base24：[Java8新特性--Stream流、方法引用](src/main/java/com/zjq/javabase/base24)         
