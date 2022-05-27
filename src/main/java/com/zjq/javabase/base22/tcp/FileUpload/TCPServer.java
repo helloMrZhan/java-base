@@ -1,4 +1,4 @@
-package com.zjq.javabase.base22.demo02.FileUpload;
+package com.zjq.javabase.base22.tcp.FileUpload;
 
 import java.io.File;
 import java.io.FileOutputStream;

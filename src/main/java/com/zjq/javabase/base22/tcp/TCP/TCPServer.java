@@ -1,4 +1,4 @@
-package com.zjq.javabase.base22.demo01.TCP;
+package com.zjq.javabase.base22.tcp.TCP;
 
 import java.io.IOException;
 import java.io.InputStream;
