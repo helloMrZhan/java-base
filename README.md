@@ -13,9 +13,9 @@
 ## base03：[Java基础语法--流程控制语句](src/main/java/com/zjq/javabase/base03) 
 [流程控制语句](https://blog.csdn.net/qq_35427589/article/details/124121707)       
 ## base04：[Java基础语法--方法](src/main/java/com/zjq/javabase/base04)      
- 
+[方法的定义和调用](https://blog.csdn.net/qq_35427589/article/details/124115510)  
 ## base05：[Java基础语法--数组](src/main/java/com/zjq/javabase/base05)     
-   
+[Java数组详解](https://blog.csdn.net/qq_35427589/article/details/124145681)   
 ## base06：[面向对象和封装--类与对象、封装、构造方法](src/main/java/com/zjq/javabase/base06)     
     
 ## base07：[常用API--Scanner类、Random类、ArrayList类](src/main/java/com/zjq/javabase/base07)     
