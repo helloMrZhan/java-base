@@ -17,7 +17,10 @@
 ## base05：[Java基础语法--数组](src/main/java/com/zjq/javabase/base05)     
 [Java数组详解](https://blog.csdn.net/qq_35427589/article/details/124145681)   
 ## base06：[面向对象和封装--类与对象、封装、构造方法](src/main/java/com/zjq/javabase/base06)     
-    
+ [Java类与对象详解](https://blog.csdn.net/qq_35427589/article/details/124157900)
+ 
+ [Java三大特性(一)—封装](https://blog.csdn.net/qq_35427589/article/details/124157978)
+   
 ## base07：[常用API--Scanner类、Random类、ArrayList类](src/main/java/com/zjq/javabase/base07)     
     
 ## base08：[常用API--String类、static、Arrays类、Math类](src/main/java/com/zjq/javabase/base08)        
